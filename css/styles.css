@@ -1,5 +1,6 @@
 /*VARIABLES*/
 /*Branding color*/
+/* $MIXINS */
 /* BUTTON */
 .btn {
   display: inline-block;
@@ -18,3 +19,10 @@
 /*TIPOGRAFIAS*/
 table tr:hover {
   background: #dbd879; }
+
+section {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 24px;
+  background-color: #bfbfbf; }

@@ -1,0 +1,9 @@
+/* $MIXINS */
+
+@mixin max-width{
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: $padding;
+    background-color: $color-lighgrey;
+}
