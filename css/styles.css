@@ -21,8 +21,21 @@ table tr:hover {
   background: #dbd879; }
 
 section {
-  max-width: 80%;
+  max-width: 800px;
   margin: 0 auto;
   text-align: center;
   padding: 24px;
+  background-color: blue;
   background-color: #bfbfbf; }
+  @media screen and (min-width: 800px) {
+    section {
+      background: red; } }
+
+.max-width--huge {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 24px; }
+
+header {
+  background-color: #ea83ee; }

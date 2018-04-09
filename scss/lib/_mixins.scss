@@ -1,9 +1,14 @@
 /* $MIXINS */
 
-@mixin max-width{
-    max-width: 80%;
+@mixin max-width($maxwidth: 800px){
+    max-width: $maxwidth;
     margin: 0 auto;
     text-align: center;
     padding: $padding;
-    background-color: $color-lighgrey;
+}
+
+@mixin respond-to($width){
+    @media screen and (min-width: $width){
+        @content ;
+    }
 }
