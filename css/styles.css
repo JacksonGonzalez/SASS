@@ -1,6 +1,7 @@
+/*Branding color*/
+table tr:hover {
+  background: #dbd879; }
+
 body {
   font: 100% Helvetica, sans-serif;
   color: #333; }
-
-table tr:hover {
-  background: grey; }

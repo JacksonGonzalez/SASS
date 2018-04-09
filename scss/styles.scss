@@ -1,9 +1,8 @@
-$font-stack:    Helvetica, sans-serif;
-$primary-color: #333;
+@import "lib/variables";
+
+@import "tablas";
 
 body {
   font: 100% $font-stack;
   color: $primary-color;
 }
-
-@import "tablas"
