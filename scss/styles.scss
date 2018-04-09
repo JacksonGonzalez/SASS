@@ -1,8 +1,13 @@
+//Librerias, setting y Variables
 @import "lib/variables";
 
+//Elemntos base
+@import "base/botones";
+@import "base/links";
+@import "base/tipografia";
 @import "tablas";
 
-body {
-  font: 100% $font-stack;
-  color: $primary-color;
-}
+//Componentes
+@import "components/grids";
+
+@import "components/utilities";

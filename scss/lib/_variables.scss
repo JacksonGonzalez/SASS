@@ -1,11 +1,26 @@
+/*VARIABLES*/
 $font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
 /*Branding color*/
-$colors-brand: #ea83ee;
+$color-brand: #ea83ee;
 $color-secondary: rgb(219, 216, 121);
 // Variaciones de grises
-$dark: rgb(0, 0, 0);
-$darkgrey: #4d4d4d;
-$grey : #737373;
-$lighgrey: #bfbfbf;
-$white: white;
+$color-dark: rgb(0, 0, 0);
+$color-darkgrey: #4d4d4d;
+$color-grey : #737373;
+$color-lighgrey: #bfbfbf;
+$color-white: white;
+
+//texturas
+$color-alert: rgb(252, 228, 207);
+$color-error: rgb(218, 79, 73);
+$color-info: rgb(66, 184, 221);
+$color-sucess: rgb(91, 183, 91); 
+
+//tipografias
+$basefont: 'Quicksand', sans-serif;
+$basefontsize: 16px;
+
+//botones
+$buttoncolor : $color-white;
+$buttonbackgroundcolor: $color-brand;
